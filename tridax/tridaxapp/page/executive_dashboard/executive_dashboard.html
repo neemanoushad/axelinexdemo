@@ -1,0 +1,57 @@
+<style>
+    .stat-card {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .stat-icon {
+        font-size: 30px;
+        color: #1a4a7c;
+        margin-right: 15px;
+    }
+    .stat-label {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #333;
+    }
+    .stat-value {
+        font-size: 18px;
+        color: #555;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa fa-play"></i></div>
+                <div>
+                    <div class="stat-label">Existing Client (PVT)</div>
+                    <div class="stat-value" id="existing-pvt">0.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa fa-play"></i></div>
+                <div>
+                    <div class="stat-label">New Client</div>
+                    <div class="stat-value" id="new-client-total">0.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa fa-play"></i></div>
+                <div>
+                    <div class="stat-label">Turnover Score</div>
+                    <div class="stat-value" id="turnover-total">0.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
