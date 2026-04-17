@@ -267,3 +267,14 @@ fixtures = [
             ]
         ],
     },]
+
+fixtures = [
+    {
+        "dt": "Workspace", 
+        "filters": [["name", "=", "Axelines Dashboard"]]
+    },
+    {
+        "dt": "Custom HTML Block", 
+        "filters": [["name", "=", "Turnover"]]
+    }
+]
